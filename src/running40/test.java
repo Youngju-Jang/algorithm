@@ -7,16 +7,8 @@ import java.util.stream.Stream;
 
 public class test {
      public static void main(String[] args) {
-          List<Character> chars = Arrays.asList('J', 'a', 'v', 'a');
-          char[] charArray = { 'J', 'a', 'v', 'a' };
      
-          Stream.of(charArray)
-               .map(arr -> new String(arr))
-               .collect(Collectors.joining());
-          
-          chars.stream()
-               .map(String::valueOf)
-               .collect(Collectors.joining());
-     
+          System.out.println("[[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]]"
+               .replace("[","{").replace("]","}"));
      }
 }
