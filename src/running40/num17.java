@@ -15,7 +15,6 @@ public class num17 {
           long zero =  Arrays.stream(lottos).filter(n -> n==0).count(); // 0~6
           int good = (int)(7-same-zero);
           int bad = (int)(7-same);
-          good = (good <1) ? 1 : good; // 나올수없는 경우인듯. 이건
           good = (good > 6) ? 6 : good; // zero =0, same = 0
           bad = (bad >6) ? 6 : bad;
           return new int[]{good, bad};

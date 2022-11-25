@@ -1,4 +1,4 @@
-package running40;
+package etc;
 
 import java.util.Arrays;
 

@@ -20,7 +20,7 @@ public class num16 {
      
      public static void main(String[] args) {
           num16 test = new num16();
-          int[] ans = test.solution(new int[]{2,1,3,4,1});
+          int[] ans = test.solution(new int[]{2,1,3,0,0,4,1});
           System.out.println(Arrays.toString(ans));
      }
 }

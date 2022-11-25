@@ -1,5 +1,5 @@
-package running40;
-
+package etc;
+// 스터디시간
 public class TEST2 {
      public int solution(int[] arr1, int[] arr2) {
           int answer = 0;
@@ -13,7 +13,7 @@ public class TEST2 {
      
      public static void main(String[] args) {
           TEST2 method = new TEST2();
-          int[] arr1 = {9, 7, 8, 9, 7, 9, 8};
+          int[] arr1 = {10, 7, 8, 9, 7, 9, 8};
           int[] arr2 = {23, 22, 26, 26, 29, 27, 22};
           System.out.println(method.solution(arr1, arr2));
      }

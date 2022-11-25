@@ -1,6 +1,4 @@
-package running40;
-
-import java.time.LocalDate;
+package etc;
 
 public class TEST1 {
      // 모의고사 -
