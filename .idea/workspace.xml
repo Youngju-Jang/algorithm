@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,10 +37,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/git/repository3/인프런/spring-petclinic&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -130,6 +133,26 @@
       <workItem from="1669299558079" duration="1528000" />
       <workItem from="1669337195755" duration="51000" />
       <workItem from="1669342186656" duration="2956000" />
+      <workItem from="1669385513726" duration="1250000" />
+      <workItem from="1669420924322" duration="79000" />
+      <workItem from="1669551480680" duration="3026000" />
+      <workItem from="1669597728526" duration="513000" />
+      <workItem from="1669734251156" duration="1840000" />
+      <workItem from="1669776014466" duration="14000" />
+      <workItem from="1669907156980" duration="1476000" />
+      <workItem from="1669947975174" duration="1030000" />
+      <workItem from="1669994050797" duration="2052000" />
+      <workItem from="1670026488396" duration="674000" />
+      <workItem from="1670253916351" duration="1335000" />
+      <workItem from="1670285473765" duration="14000" />
+      <workItem from="1670338829626" duration="3196000" />
+      <workItem from="1670381249630" duration="4000" />
+      <workItem from="1670545278909" duration="666000" />
+      <workItem from="1670553026952" duration="1484000" />
+      <workItem from="1670601021290" duration="1318000" />
+      <workItem from="1670654243909" duration="29000" />
+      <workItem from="1670859495653" duration="2875000" />
+      <workItem from="1670940585753" duration="2449000" />
     </task>
     <servers />
   </component>

@@ -1,39 +1,30 @@
-import etc.car1;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
-     public int solution(int n) {
+     
+     public int solution(String before, String after) {
+          String[] bef = before.split("");
+          String[] aft = after.split("");
+          String b = Arrays.stream(bef).sorted().collect(Collectors.joining(""));
+          String a = Arrays.stream(aft).sorted().collect(Collectors.joining(""));
+          if(b.equals(a)) return 1;
           return 0;
      }
+     
      public static void main(String[] args) {
-          int num =0 ;
-          
-          car1 c1 = new car1();
-          c1.setGlob_str(123, "test");
-          //c1.setGlob_str(20);
-          System.out.println("setGlob_str2");
-          num = (int)c1.setGlob_str2(20);
-          double num2 = c1.setGlob_str2(20);
-          
-          System.out.println("setGlob_str2");
-          num = 20;
-          
-          System.out.println("num > " + num);
-          
-//          car1 c3 = new car1("test123", 12);
-//
-//          car1 c2 = new car1();
-//          System.out.println(System.identityHashCode(c1.glob_str));
-//          System.out.println(System.identityHashCode(c2.glob_str));
-//
-//          System.out.println(System.identityHashCode(c1.glob_str2));
-//          System.out.println(System.identityHashCode(c2.glob_str2));
-//
-//          car2 car2= new car2();
-//          System.out.println(System.identityHashCode(car2.car1.glob_str));
-//          System.out.println(System.identityHashCode(c1.glob_str));
-//
-//          String te = "test";
-          
+
+//          System.out.println(Arrays.toString(new Main().solution(new int[]{1, 2, 3}, "right")));
+//          System.out.println((new Main().solution(new int[]{0, -31, 24, 10, 1, 9})));
+//          System.out.println((new Main().solution("dfjardstddetckdaccccdegk", 4)));
+//          System.out.println((new Main().solution(new String[]{"a", "b", "c"}, new String[]{"com", "b", "d", "p", "c"})));
+//          System.out.println(Arrays.toString(new Main().solution(24)));
+//          System.out.println((new Main().solution(".... . .-.. .-.. ---")));
+//          System.out.println((new Main().solution(3628800)));
+          System.out.println(new Main().solution("allpe","apple"));
      }
 }
-// System.identityHashCode(Object)
