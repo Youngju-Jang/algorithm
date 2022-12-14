@@ -57,19 +57,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TEST6_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etc.TEST6_2" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="etc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="num23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reRunning40.num23" />
       <module name="algorithm" />
@@ -109,13 +96,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="replace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="replace" />
+      <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.replace" />
         <item itemvalue="Application.num25" />
         <item itemvalue="Application.num24" />
         <item itemvalue="Application.num23" />
-        <item itemvalue="Application.TEST6_2" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +147,8 @@
       <workItem from="1670654243909" duration="29000" />
       <workItem from="1670859495653" duration="2875000" />
       <workItem from="1670940585753" duration="2866000" />
+      <workItem from="1670968213258" duration="368000" />
+      <workItem from="1671030174590" duration="3146000" />
     </task>
     <servers />
   </component>

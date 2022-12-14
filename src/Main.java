@@ -7,24 +7,28 @@ import java.util.stream.Stream;
 
 public class Main {
      
-     public int solution(String before, String after) {
-          String[] bef = before.split("");
-          String[] aft = after.split("");
-          String b = Arrays.stream(bef).sorted().collect(Collectors.joining(""));
-          String a = Arrays.stream(aft).sorted().collect(Collectors.joining(""));
-          if(b.equals(a)) return 1;
-          return 0;
+     public int[][] solution(int[] num_list, int n) {
+          int x = (int)Math.ceil(num_list.length/(double)n);
+          int[][] answer = new int[x][n];
+          int i=0;
+               for(int j=0; j<x; j++){
+                    for(int z=0; z<n; z++){
+                         answer[j][z] = num_list[i++];
+                         if(i >= num_list.length) return answer;
+                    }
+               }
+          
+          return answer;
      }
      
      public static void main(String[] args) {
-
 //          System.out.println(Arrays.toString(new Main().solution(new int[]{1, 2, 3}, "right")));
-//          System.out.println((new Main().solution(new int[]{0, -31, 24, 10, 1, 9})));
+          System.out.println(Arrays.toString(new Main().solution(new int[]{1, 2, 3, 4, 5, 6, 7}, 2)));
 //          System.out.println((new Main().solution("dfjardstddetckdaccccdegk", 4)));
 //          System.out.println((new Main().solution(new String[]{"a", "b", "c"}, new String[]{"com", "b", "d", "p", "c"})));
 //          System.out.println(Arrays.toString(new Main().solution(24)));
 //          System.out.println((new Main().solution(".... . .-.. .-.. ---")));
-//          System.out.println((new Main().solution(3628800)));
-          System.out.println(new Main().solution("allpe","apple"));
+//          System.out.println((new Main().solution("3628800")));
+//          System.out.println(new Main().solution("allpe","apple"));
      }
 }
