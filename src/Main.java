@@ -7,17 +7,17 @@ import java.util.stream.Stream;
 
 public class Main {
      
-     public int[] solution(int denum1, int num1, int denum2, int num2) {
-          int dn3 = denum1 * num2 + denum2 * num1;
-          int n3 = num1 * num2;
-          for(int i=2; i<=Math.min(dn3, n3); i++){
-               if(dn3%i==0 && n3%i==0){
-                    dn3 /= i;
-                    n3 /= i;
-                    i--;
+     public int solution(int[] array, int n) {
+          int gap = 101;
+          int answer = 300;
+          for(int i : array){
+               if(Math.abs(n-i) < gap){
+                    gap = Math.abs(n-i);
+                    answer = i;
+               }else if(Math.abs(n-i) == gap){
+                    answer = Math.min(answer, i);
                }
           }
-          int[] answer = {dn3, n3};
           return answer;
      }
      
@@ -28,8 +28,8 @@ public class Main {
 //          System.out.println((new Main().solution(new String[]{"a", "b", "c"}, new String[]{"com", "b", "d", "p", "c"})));
 //          System.out.println(Arrays.toString(new Main().solution(24)));
 //          System.out.println((new Main().solution(".... . .-.. .-.. ---")));
-//          System.out.println((new Main().solution("3628800")));
+          System.out.println((new Main().solution(new int[]{9,10,11}, 10)));
 //          System.out.println(new Main().solution("allpe","apple"));
-          System.out.println(Arrays.toString(new Main().solution(1,2, 1, 2)));
+//          System.out.println(Arrays.toString(new Main().solution(1,2, 1, 2)));
      }
 }
