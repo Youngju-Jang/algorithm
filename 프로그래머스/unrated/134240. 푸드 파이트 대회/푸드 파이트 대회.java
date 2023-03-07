@@ -5,12 +5,6 @@ class Solution {
                if(food[i]<2) continue;
                sb.append(Integer.toString(i).repeat(food[i]/2));
           }
-          String front = sb.toString();
-          sb.append("0");
-          char[] chArr = front.toCharArray();
-          for(int i=chArr.length-1; i>=0; i--){
-               sb.append(chArr[i]);
-          }
-          return sb.toString();
+          return sb.toString() + "0" + sb.reverse().toString();
      }
 }
