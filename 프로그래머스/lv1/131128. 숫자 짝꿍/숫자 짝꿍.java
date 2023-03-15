@@ -22,7 +22,7 @@ class Solution {
           String answer = sb.toString();
           if(answer.equals("")){
                return "-1";
-          }else if(answer.replaceAll("0","").equals("")){
+          }else if(answer.startsWith("0")){
                return "0";
           }else {
                return answer;
