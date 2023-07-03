@@ -1,10 +1,4 @@
 -- -- 코드를 입력하세요
--- SELECT i.REST_ID,	i.REST_NAME,	i.FOOD_TYPE,	i.FAVORITES,	i.ADDRESS,	
--- (select round(avg(r.REVIEW_SCORE),2) REST_ID from REST_REVIEW r where r.REST_ID=i.REST_ID) SCORE
--- from REST_INFO i
--- where 1=1 and
--- A.ADDRESS Like '서울%'
--- order by SCORE desc, i.FAVORITES desc;
 
 SELECT A.REST_ID, A.REST_NAME, A.FOOD_TYPE, A.FAVORITES, A.ADDRESS
     , B.SCORE
