@@ -1,0 +1,4 @@
+def solution(my_string, indices):
+    
+        
+    return ''.join([my_string[i] for i in list(filter(lambda i : not indices.__contains__(i), [i for i in range(len(my_string))]))])
